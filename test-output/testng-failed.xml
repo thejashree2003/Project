@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="FinalProjectUseCase.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="FinalProjectUseCase.usecase">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="tearDown"/>
+          <include name="CreateProjectWithEmployees"/>
+          <include name="SubmitUpdate"/>
+          <include name="ConfirmPopup"/>
+          <include name="UpdateEmployeeRoles"/>
+        </methods>
+      </class> <!-- FinalProjectUseCase.usecase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="SprintExecution(failed)">
+    <classes>
+      <class name="FinalProjectUseCase.Download">
+        <methods>
+          <include name="openApplication"/>
+          <include name="confirmSprintPopup"/>
+          <include name="fillSprintForm"/>
+          <include name="downloadWeeklyReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- FinalProjectUseCase.Download -->
+    </classes>
+  </test> <!-- SprintExecution(failed) -->
+</suite> <!-- Failed suite [Suite] -->

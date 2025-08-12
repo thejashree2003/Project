@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+	<listener class-name="FinalProjectUseCase.ExtentReportManager"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="FinalProjectUseCase.usecase"/>
+    </classes>
+  </test>
+  <test name="SprintExecution">
+        <classes>
+            <class name="FinalProjectUseCase.Download"/>
+        </classes>
+    </test>
+</suite>
