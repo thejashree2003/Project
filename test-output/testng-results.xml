@@ -2,64 +2,64 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T13:30:20 IST" name="Suite" finished-at="2025-08-12T13:31:14 IST" duration-ms="54151">
+  <suite started-at="2025-08-12T17:00:44 IST" name="Suite" finished-at="2025-08-12T17:02:04 IST" duration-ms="79617">
     <groups>
     </groups>
-    <test started-at="2025-08-12T13:30:20 IST" name="Test" finished-at="2025-08-12T13:30:52 IST" duration-ms="31770">
+    <test started-at="2025-08-12T17:00:44 IST" name="Test" finished-at="2025-08-12T17:01:36 IST" duration-ms="52136">
       <class name="FinalProjectUseCase.usecase">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:20 IST" name="OpenApp" finished-at="2025-08-12T13:30:28 IST" duration-ms="7752" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:00:45 IST" name="OpenApp" finished-at="2025-08-12T17:01:03 IST" duration-ms="17542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="CreateProjectWithEmployees()[pri:1, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:28 IST" name="CreateProjectWithEmployees" finished-at="2025-08-12T13:30:34 IST" duration-ms="5667" status="PASS">
+        <test-method signature="CreateProjectWithEmployees()[pri:1, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:03 IST" name="CreateProjectWithEmployees" finished-at="2025-08-12T17:01:16 IST" duration-ms="12989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateProjectWithEmployees -->
-        <test-method signature="NavToHomePage()[pri:2, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:34 IST" name="NavToHomePage" finished-at="2025-08-12T13:30:34 IST" duration-ms="409" status="PASS">
+        <test-method signature="NavToHomePage()[pri:2, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:16 IST" name="NavToHomePage" finished-at="2025-08-12T17:01:16 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavToHomePage -->
-        <test-method signature="ClickUpdate()[pri:3, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:34 IST" name="ClickUpdate" finished-at="2025-08-12T13:30:35 IST" duration-ms="764" status="PASS">
+        <test-method signature="ClickUpdate()[pri:3, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:16 IST" name="ClickUpdate" finished-at="2025-08-12T17:01:17 IST" duration-ms="1063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickUpdate -->
-        <test-method signature="UpdateEmployeeRoles()[pri:4, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:35 IST" name="UpdateEmployeeRoles" finished-at="2025-08-12T13:30:51 IST" duration-ms="15839" status="PASS">
+        <test-method signature="UpdateEmployeeRoles()[pri:4, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:17 IST" name="UpdateEmployeeRoles" finished-at="2025-08-12T17:01:35 IST" duration-ms="17971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateEmployeeRoles -->
-        <test-method signature="SubmitUpdate()[pri:5, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:51 IST" name="SubmitUpdate" finished-at="2025-08-12T13:30:51 IST" duration-ms="87" status="PASS">
+        <test-method signature="SubmitUpdate()[pri:5, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:35 IST" name="SubmitUpdate" finished-at="2025-08-12T17:01:35 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitUpdate -->
-        <test-method signature="ConfirmPopup()[pri:6, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:51 IST" name="ConfirmPopup" finished-at="2025-08-12T13:30:51 IST" duration-ms="199" status="PASS">
+        <test-method signature="ConfirmPopup()[pri:6, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:36 IST" name="ConfirmPopup" finished-at="2025-08-12T17:01:36 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmPopup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T13:30:51 IST" name="tearDown" finished-at="2025-08-12T13:30:52 IST" duration-ms="483" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FinalProjectUseCase.usecase@5bf0d49]" started-at="2025-08-12T17:01:36 IST" name="tearDown" finished-at="2025-08-12T17:01:36 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FinalProjectUseCase.usecase -->
     </test> <!-- Test -->
-    <test started-at="2025-08-12T13:30:52 IST" name="SprintExecution" finished-at="2025-08-12T13:31:14 IST" duration-ms="21673">
+    <test started-at="2025-08-12T17:01:37 IST" name="SprintExecution" finished-at="2025-08-12T17:02:04 IST" duration-ms="26664">
       <class name="FinalProjectUseCase.Download">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T13:30:52 IST" name="openApplication" finished-at="2025-08-12T13:30:56 IST" duration-ms="4151" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T17:01:37 IST" name="openApplication" finished-at="2025-08-12T17:01:43 IST" duration-ms="5317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="fillSprintForm()[pri:1, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T13:30:56 IST" name="fillSprintForm" finished-at="2025-08-12T13:31:10 IST" duration-ms="13124" status="PASS">
+        <test-method signature="fillSprintForm()[pri:1, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T17:01:43 IST" name="fillSprintForm" finished-at="2025-08-12T17:01:59 IST" duration-ms="16183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillSprintForm -->
-        <test-method signature="confirmSprintPopup()[pri:2, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T13:31:10 IST" name="confirmSprintPopup" finished-at="2025-08-12T13:31:10 IST" duration-ms="122" status="PASS">
+        <test-method signature="confirmSprintPopup()[pri:2, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T17:01:59 IST" name="confirmSprintPopup" finished-at="2025-08-12T17:01:59 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmSprintPopup -->
-        <test-method signature="downloadWeeklyReport()[pri:3, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T13:31:10 IST" name="downloadWeeklyReport" finished-at="2025-08-12T13:31:14 IST" duration-ms="3848" status="PASS">
+        <test-method signature="downloadWeeklyReport()[pri:3, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T17:01:59 IST" name="downloadWeeklyReport" finished-at="2025-08-12T17:02:04 IST" duration-ms="4493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadWeeklyReport -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T13:31:14 IST" name="closeBrowser" finished-at="2025-08-12T13:31:14 IST" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FinalProjectUseCase.Download@2cd76f31]" started-at="2025-08-12T17:02:04 IST" name="closeBrowser" finished-at="2025-08-12T17:02:04 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

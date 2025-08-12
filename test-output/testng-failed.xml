@@ -4,20 +4,6 @@
   <listeners>
     <listener class-name="FinalProjectUseCase.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <classes>
-      <class name="FinalProjectUseCase.usecase">
-        <methods>
-          <include name="OpenApp"/>
-          <include name="tearDown"/>
-          <include name="CreateProjectWithEmployees"/>
-          <include name="SubmitUpdate"/>
-          <include name="ConfirmPopup"/>
-          <include name="UpdateEmployeeRoles"/>
-        </methods>
-      </class> <!-- FinalProjectUseCase.usecase -->
-    </classes>
-  </test> <!-- Test(failed) -->
   <test thread-count="5" name="SprintExecution(failed)">
     <classes>
       <class name="FinalProjectUseCase.Download">
